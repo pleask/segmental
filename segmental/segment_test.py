@@ -3,11 +3,11 @@ import numpy as np
 from segments import Segments
 
 
-class TestSegments(unittest.TestCase):
+class TestSegment(unittest.TestCase):
     def test_as_array(self):
         array = np.zeros(1)
-        segments = Segments(array)
-        self.assertEqual(array, segments)
+        segment = Segment(array)
+        self.assertEqual(array, segment)
 
 if __name__ == "__main__":
     unittest.main()

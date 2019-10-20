@@ -1,6 +1,8 @@
 import numpy as np
+from typing import List
 
-class Segments:
+
+class Segment:
     def __init__(self, arr: np.ndarray):
         self._arr = arr
 
