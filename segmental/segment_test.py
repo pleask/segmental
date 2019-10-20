@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from segments import Segments
+from .segments import Segments
 
 
 class TestSegment(unittest.TestCase):
